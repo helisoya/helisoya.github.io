@@ -1,430 +1,388 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--
--->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/index.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://helisoya.github.io/</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/portfolio.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/index.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/about.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/portfolio.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/spailpin.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/blog.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/popoDeglingo.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/about.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldQuest2Remake.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/jeux/spailpin.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/poulpeFiction.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/jeux/popoDeglingo.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/hideEat.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/jeux/haroldQuest2Remake.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/radioSilence.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/jeux/poulpeFiction.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/theAlchemist.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/jeux/hideEat.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldBasement2.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/jeux/radioSilence.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/lists/portfolioExperimental.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/jeux/theAlchemist.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://helisoya.github.io/Portfolio/french/cv.pdf</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://helisoya.github.io/jeux/haroldBasement2.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/lists/portfolioENJMIN.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/lists/portfolioExperimental.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/lists/portfolioJams.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/cv.pdf</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/lists/portfolioEngine.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/lists/portfolioENJMIN.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/lists/portfolioHQ.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/lists/portfolioJams.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/lists/portfolioByYear.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/lists/portfolioEngine.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldQuestRemake.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/lists/portfolioHQ.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldQuest2.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/lists/portfolioByYear.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldQuestAftermathRemake.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/jeux/haroldQuestRemake.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/novaKalia.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/jeux/haroldQuest2.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/politics.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://helisoya.github.io/jeux/haroldQuestAftermathRemake.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/theOutrunner.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/novaKalia.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/puzzleTruck.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/politics.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/lonelyAtRonald.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/theOutrunner.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/mechsWizard.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/puzzleTruck.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/lichPeasants.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/lonelyAtRonald.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/dunkirkers.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/mechsWizard.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/bigfootForest.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/lichPeasants.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldQuestFrozenTrio.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/dunkirkers.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/huntDownTheBigfoot.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/bigfootForest.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/autumnBreeze.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/haroldQuestFrozenTrio.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/engines/anf.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/huntDownTheBigfoot.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/engines/ane.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/autumnBreeze.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldBasement.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/engines/anf.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/leJoyauDuNord.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/engines/ane.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldQuestCompleteSaga.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/haroldBasement.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldQuestAftermath.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/leJoyauDuNord.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/haroldQuest.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/haroldQuestCompleteSaga.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/unort.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/haroldQuestAftermath.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/arthurLazarTheLazarWitch.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/haroldQuest.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/operative.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/unort.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/huntDownTheBigfoot2.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/arthurLazarTheLazarWitch.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/antiTerrorForce2.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/operative.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/gsgEurope.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/huntDownTheBigfoot2.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/japanMan.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/antiTerrorForce2.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/colorCity.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/gsgEurope.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/antiTerrorForce.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/japanMan.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/armageddon.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/colorCity.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/starFighter.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/antiTerrorForce.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/gsg2.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/armageddon.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/casusBelli3.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/starFighter.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/fortress2.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/gsg2.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/theBasement.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/casusBelli3.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/expansion.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/fortress2.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/fortress.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/theBasement.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/gsg.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/expansion.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/casusBelli2.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/fortress.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/casusBelli.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/gsg.html</loc>
+  <lastmod>2026-04-30T16:38:52+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://helisoya.github.io/Portfolio/french/jeux/speedyRacing.html
-</loc>
-<lastmod>2026-02-17T07:43:40+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://helisoya.github.io/jeux/casusBelli2.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
+<url>
+  <loc>https://helisoya.github.io/jeux/casusBelli.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/jeux/speedyRacing.html</loc>
+  <lastmod>2026-04-30T16:38:51+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/HQ2.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/HB.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/LJDN.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/HQ-A/</loc>
+  <lastmod>2021-01-24T15:41:39+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/HQ1.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/CB3.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/F2.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/Expansion/</loc>
+  <lastmod>2022-07-15T13:28:07+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/F.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/GSG.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/CB2.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/CB1.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://helisoya.github.io/assets/video/SR.webm</loc>
+  <lastmod>2026-04-30T16:43:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
 </urlset>
