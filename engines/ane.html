@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Julien Oudot - Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="../css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
+		<div class="container">
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a class="localized" id="locals_header_home" href="../index.html">Accueil</a></li>
+					<li><a class="active localized" id="locals_header_portfolio" href="../portfolio.html">Portfolio</a>
+					</li>
+					<li><a class="localized" id="locals_header_blog" href="../blog.html">Blog</a></li>
+					<li><a class="localized" id="locals_header_about" href="../about.html">A propos</a></li>
+					<li><a id="changeLocalButton" href=""><img id="changeLocalImg" src="../assets/img/french.png"></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<header class="background-dark-blue text-white" id="master-header">
+		<div class="container d-flex align-items-center flex-column">
+
+			<div class="row justify-content-start">
+				<div class="col-8">
+					<h2 class="font-weight-bold pb-4">Adventure Novel Engine (ANE)</h2>
+					<p class="font-weight-bold pb-2 localized" id="locals_engine_ane_desc1">ANE est un moteur de jeu sur
+						lequel je travaille depuis fin
+						2025.</p>
+					<p class=" pb-4 localized" id="locals_engine_ane_desc2">C'est un moteur de jeu qui reprend le
+						fonctionnement du framework ANF et le
+						retranscrit en C++ / DirectX11.</p>
+				</div>
+				<div class="col-4">
+					<img class="img-fluid" src="../assets/img/portfolio/ANE.png" alt="MainLogo">
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row mb-5 justify-content-center">
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_language">Langage</h3>
+						<p class="text-center text-dark ">C++</p>
+						<p class="text-center text-dark">DirectX11</p>
+					</div>
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_type">Type</h3>
+						<p class="text-center text-dark localized" id="locals_global_engine">Moteur de jeu</p>
+					</div>
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_devTime">Temps de dev</h3>
+						<p class="text-center text-dark">2025-???</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_ane_base">Bases du moteur</h3>
+				<p class="localized" id="locals_engine_ane_baseDesc">
+					Le moteur est décomposé en plusieurs modules, qui sont responsables de différentes parties du
+					moteur.
+					<br></br>
+					- <b>Le manager</b> est responsable de gérer les autres modules et de s'assurer qu'ils soient bien
+					synchronisés. Il gère aussi les variables joueurs (nom du joueur, quêtes en cours, ...)
+					<br></br>
+					- <b>Le monde</b> est responsable des personnages à l'écran et du décor.
+					<br></br>
+					- <b>Intéractions</b> est responsable de la mécanique d'intéraction du moteur.
+					<br></br>
+					- <b>Le processeur de script</b> est responsable de la traduction du language de script ANSL en
+					commandes interprétables par le moteur.
+					<br></br>
+					- <b>Le GUI</b> est responsable des différents élements de UI du moteur (menu pause, dialogues,
+					...).
+					<br></br>
+					- <b>La localisation</b> est gérée par le moteur avec un systême fait à la main.
+					<br></br>
+					- <b>La carte</b> permet au joueur de se déplacer dans une ou plusieurs cartes. Cela permet d'avoir
+					une
+					expérience de jeu moins linéaire et plus ouverte.
+					<br></br><br></br>
+					ANSL (Adventure Novel Scripting Langguage) est le language de script permettant de créer des jeux
+					sans
+					avoir à toucher au moteur.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../assets/img/engines/ANE/1.png" alt="screenShot">
+				<p class="text-center localized" id="locals_engine_ane_figure1Desc">Schéma des différents modules de ANE
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="background-dark-blue text-white" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_ane_sceneEditor">Editeur de scene</h3>
+				<p class="localized" id="locals_engine_ane_sceneEditorDesc">
+					Un editeur de scene, implémenté avec ImGUi, a été ajouté afin de faciliter la création de décor pour
+					un jeu. Il permet de :
+					<br></br>
+					- Visualiser les différentes scenes du projet, en ajouter, et en supprimer.
+					<br></br>
+					- Ajouter des <b>élements de décors</b> et de les déplacer.
+					<br></br>
+					- Ajouter des <b>points d'intéraction</b> et les lier à des objects de la scene.
+					<br></br>
+					- Ajouter des <b>marqueurs</b> et les déplacer. Ils sont utilisé par la suite pour placer des
+					personnages dans ANSL.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../assets/img/engines/ANE/2.png" alt="screenShot">
+				<p class="text-center localized" id="locals_engine_ane_figure2Desc">Exemple d'une scene en mode édition.
+					Le personnage représente un marqueur, et le
+					damier en bas de l'écran représente une zone d'intéraction.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4 localized" id="locals_footer_onTheWeb">Sur le Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2026</small></div>
+	</div>
+
+	<script type="text/javascript">
+		const localsFR = {
+			// Header
+			"locals_header_home": 'Accueil',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "A propos",
+
+			"locals_global_language": "Langage",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Temps de dev",
+
+			"locals_global_features": "Caractéristiques du jeu",
+			"locals_global_play": "Jouer à ce jeu",
+			"locals_global_seeVideoDemo": "Voir une démonstration vidéo",
+
+			"locals_global_engine": "Moteur de Jeu",
+
+			"locals_global_weeks": "semaines",
+			"locals_global_months": "mois",
+			"locals_global_days": "jours",
+			"locals_global_week": "semaine",
+			"locals_global_month": "mois",
+			"locals_global_day": "jour",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "Sur le Web",
+
+			// ANE
+
+			"locals_engine_ane_desc1": "ANE est un moteur de jeu sur lequel je travaille depuis fin 2025.",
+			"locals_engine_ane_desc2": "C'est un moteur de jeu qui reprend le fonctionnement du framework ANF et le retranscrit en C++ / DirectX11.",
+
+			"locals_engine_ane_base": "Bases du moteur",
+			"locals_engine_ane_baseDesc": "Le moteur est décomposé en plusieurs modules, qui sont responsables de différentes parties du moteur. \
+				<br></br> \
+				- <b>Le manager</b> est responsable de gérer les autres modules et de s'assurer qu'ils soient bien synchronisés. \
+				Il gère aussi les variables joueurs(nom du joueur, quêtes en cours, ...) \
+				<br></br> \
+				- <b>Le monde</b> est responsable des personnages à l'écran et du décor. \
+				<br></br> \
+				- <b>Intéractions</b> est responsable de la mécanique d'intéraction du moteur. \
+				<br></br> \
+				- <b>Le processeur de script</b> est responsable de la traduction du language de script ANSL en commandes interprétables par le moteur. \
+				<br></br> \
+				- <b>Le GUI</b> est responsable des différents élements de UI du moteur(menu pause, dialogues, ...). \
+				<br></br> \
+				- <b>La localisation</b> est gérée par le moteur avec un systême fait à la main. \
+				<br></br> \
+				- <b>La carte</b> permet au joueur de se déplacer dans une ou plusieurs cartes. \
+				Cela permet d'avoir une expérience de jeu moins linéaire et plus ouverte. \
+				<br></br> <br></br> \
+				ANSL(Adventure Novel Scripting Langguage) est le language de script permettant de créer des jeux sans avoir à toucher au moteur.",
+
+			"locals_engine_ane_figure1Desc": "Schéma des différents modules de ANE",
+
+			"locals_engine_ane_sceneEditor": "Editeur de scene",
+			"locals_engine_ane_sceneEditorDesc": "Un editeur de scene, implémenté avec ImGUi, a été ajouté afin de faciliter la création de décor pour un jeu. Il permet de: \
+				<br></br> \
+				- Visualiser les différentes scenes du projet, en ajouter, et en supprimer. \
+				<br></br> \
+				- Ajouter des <b>élements de décors</b> et de les déplacer. \
+				<br></br> \
+				- Ajouter des <b> points d'intéraction</b> et les lier à des objects de la scene. \
+				<br></br> \
+				- Ajouter des <b> marqueurs</b> et les déplacer.Ils sont utilisé par la suite pour placer des personnages dans ANSL.",
+
+			"locals_engine_ane_figure2Desc": "Exemple d'une scene en mode édition. Le personnage représente un marqueur, et le damier en bas de l'écran représente une zone d'intéraction.",
+
+
+		};
+
+		const localsEN = {
+			// Header
+			"locals_header_home": 'Home',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "About",
+
+			// Entry Global
+
+			"locals_global_language": "Language",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Dev time",
+
+			"locals_global_features": "Features",
+			"locals_global_play": "Play this game",
+			"locals_global_seeVideoDemo": "See a video demo",
+
+			"locals_global_engine": "Game Engine",
+
+			"locals_global_weeks": "weeks",
+			"locals_global_months": "months",
+			"locals_global_days": "days",
+			"locals_global_week": "week",
+			"locals_global_month": "month",
+			"locals_global_day": "day",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "On the Web",
+
+			// ANE
+
+			"locals_engine_ane_desc1": "ANE is a game engine that I'm working on in since late 2025.",
+			"locals_engine_ane_desc2": "It is a game engine that takes the logic behind the ANF framework and translates it to C++ / DirectX11.",
+
+			"locals_engine_ane_base": "Engine basis",
+			"locals_engine_ane_baseDesc": "The engine can be broken down into several modules, which are responsible for different parts of the engine. \
+				<br></br> \
+				- <b>The manager</b> is responsible for managing the other modules and ensuring they are properly synchronized. \
+				It also manages player variables(player name, current quests, ...) \
+				<br></br> \
+				- <b>The world</b> is responsible for the on - screen characters and scenery.\
+				<br></br> \
+				- <b>Interactions</b> is responsible for the engine's interaction mechanics.\
+				<br></br> \
+				- <b>The script processor</b> is responsible for translating the ANSL script language into interpretable commands by the engine. \
+				<br></br>\
+				- <b>The GUI</b> is responsible for the different elements of the engine's UI (pause menu, dialogues, ...). \
+				<br></br>\
+				- <b>The localization</b> is managed by the engine with a handmade system. \
+				<br></br>\
+				- <b>The map</b> allows the player to move through one or more maps. \
+				This allows for a less linear and more open gaming experience.\
+				<br></br><br></br>\
+				ANSL(Adventure Novel Scripting Language) is the scripting language allowing the user to create games without having to touch the engine.",
+
+			"locals_engine_ane_figure1Desc": "Diagram of the different modules of ANE",
+
+			"locals_engine_ane_sceneEditor": "Scene Editor",
+			"locals_engine_ane_sceneEditorDesc": "A scene editor, implemented with ImGui, was added to facilitate the creation of backgrounds for a game. It allows to: \
+				<br></br> \
+				- Visualise the various scenes of the project, as well as to delete and add scenes. \
+				<br></br> \
+				- Add and move <b>background elements</b>. \
+				<br></br> \
+				- Add <b> interaction point</b> and to link them to background elements. \
+				<br></br>\
+				- Add and move <b> markers</b>.They are used later to move characters with ANSL.",
+
+			"locals_engine_ane_figure2Desc": "Example of a scene in the scene editor. The character represents a marker.\
+				The checkboard object on the bottom of the screen represents an interaction zone.",
+
+
+		};
+	</script>
+
+	<script type="text/javascript" src="../assets/locals.js"></script>
+
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+
+</html>

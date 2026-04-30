@@ -9,14 +9,339 @@
 	<title>Julien Oudot - Portfolio</title>
 	<!-- Favicon-->
 	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="css/styles.css" rel="stylesheet" />
 	<meta name="google-site-verification" content="z2rT9Dm5_9H0hWQBZGSLGNeKDpyWe7HhTqlJvZVvupE" />
-
 </head>
 
-<body>
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
+		<div class="container">
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a class="active localized" id="locals_header_home" href="index.html">Accueil</a></li>
+					<li><a class="localized" id="locals_header_portfolio" href="portfolio.html">Portfolio</a></li>
+					<li><a class="localized" id="locals_header_blog" href="blog.html">Blog</a></li>
+					<li><a class="localized" id="locals_header_about" href="about.html">A propos</a></li>
+					<li><a id="changeLocalButton" href=""><img id="changeLocalImg" src="assets/img/french.png"></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Masthead-->
+	<header class=" background-dark-blue text-white" id="master-header">
+		<div class="container d-flex align-items-center flex-column">
+
+			<div class="row justify-content-start">
+				<div class="col-8">
+					<h1 class="mb-4 localized" id="locals_home_title1">Je suis développeur dans le jeu vidéo,</h1>
+					<p class="text-left text-white opacity-80 mb-4 localized" id="locals_home_title2">Étudiant au
+						CNAM-ENJMIN, je crée
+						des jeux
+						vidéo depuis 2020 sur mon temps libre.</p>
+					<div class="container">
+						<div class="row">
+							<a class="button-orange localized" id="locals_home_seeMyProjects" href="portfolio.html">Voir
+								mes
+								projets</a>
+							<a class="button-transparent localized" id="locals_home_aboutMe" href="about.html">En savoir
+								+ sur moi</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<img class="masthead-avatar mb-5 rounded-circle " src="assets/img/photo.png" alt="Avatar" />
+				</div>
+
+
+			</div>
+		</div>
+	</header>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="container">
+			<div class="row justify-content-start">
+				<div class="col-6">
+					<img class="img-thumbnail rounded " src="assets/img/portfolio/S.png" alt="" />
+				</div>
+				<div class="col-6">
+					<h5 class="text-dark-orange mb-2 localized" id="locals_home_lastProject">Mon dernier projet</p>
+						<h2 class="text-dark-brown mb-2">Spailpin</h2>
+						<div class="container mb-3">
+							<div class="row">
+								<p class="badge">C#</p>
+								<p class="badge">Unity</p>
+							</div>
+						</div>
+						<p class="large text-dark-brown localized" id="locals_games_spailpin_desc1">
+							Spailpin est un jeu phygital mélant un carnet physique à un jeu
+							vidéo, créé durant les projets M1 au CNAM-ENJMIN. Il a été créé en
+							Unity / C#.
+						</p>
+						<p class="text-dark-brown opactiy-80 mb-4 localized" id="locals_games_spailpin_desc2">
+							Le but du joueur est de résoudre des énigmes, et comprendre
+							l'histoire de l'univers du jeu,
+							grâce au carnet.
+						</p>
+						<a class="button-white localized" id="locals_home_discoverProject" role="button"
+							href="jeux/spailpin.html">Découvrir le projet</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-dark-blue" id="portfolio">
+		<div class="container text-center">
+
+			<h5 class="text-dark-orange localized" id="locals_home_portfolio">Portfolio</h5>
+			<h2 class="text-white mb-5 localized" id="locals_home_myProjects">Mes projets</h2>
+
+			<div class="projects-grid row justify-content-center mb-4">
+
+				<!-- Dernier 1 !-->
+
+				<div class="col-6 mb-4 project-card">
+					<img src="assets/img/portfolio/PPD.png" alt="...">
+					<div class="overflow">
+						<p class="badge">C#</p>
+						<h3 class="text-white">Popo Deglingo</h3>
+						<a href="jeux/popoDeglingo.html" class="stretched-link"></a>
+					</div>
+				</div>
+
+				<div class="col-6 mb-4 project-card">
+					<img src="assets/img/portfolio/HQ2-R.png" alt="...">
+					<div class="overflow">
+						<p class="badge">C#</p>
+						<h3 class="text-white">Harold's Quest - RickeyLand</h3>
+						<a href="jeux/haroldQuest2Remake.html" class="stretched-link"></a>
+					</div>
+				</div>
+
+				<div class="col-6 mb-4 project-card">
+					<img src="assets/img/portfolio/PF.png" alt="...">
+					<div class="overflow">
+						<p class="badge">C#</p>
+						<h3 class="text-white">Poulpe Fiction</h3>
+						<a href="jeux/poulpeFiction.html" class="stretched-link"></a>
+					</div>
+				</div>
+
+				<div class="col-6 mb-4 project-card">
+					<img src="assets/img/portfolio/HE.png" alt="...">
+					<div class="overflow">
+						<p class="badge">C#</p>
+						<h3 class="text-white">Hide & Eat</h3>
+						<a href="jeux/hideEat.html" class="stretched-link"></a>
+					</div>
+				</div>
+
+			</div>
+
+			<a class="button-outlined localized" id="locals_home_seeMore" href="portfolio.html"
+				style="margin: auto;">Voir plus</a>
+
+		</div>
+	</section>
+
+	<section class="background-light-orange" id="experiments">
+		<div class="container text-center">
+			<h3 class="mb-5 text-dark-brown localized" id="locals_home_experiements">Mes expérimentations</h2>
+				<div class="row">
+					<div class="divider col-12"></div>
+					<a href="jeux/radioSilence.html" class="col-12 experiment-item">
+						<img src="assets/img/portfolio/RS.png" alt="...">
+						<p class="mb-0 text-dark-brown">Radio Silence (2024)</p>
+						<p class="mb-0 link-orange localized" id="locals_home_see">Voir</p>
+					</a>
+					<div class="divider col-12"></div>
+					<a href="jeux/theAlchemist.html" class="col-12 experiment-item">
+						<img src="assets/img/portfolio/TA.png" alt="...">
+						<p class="mb-0 text-dark-brown">The Alchemist (2022)</p>
+						<p class="mb-0 link-orange localized" id="locals_home_see">Voir</p>
+					</a>
+					<div class="divider col-12"></div>
+					<a href="jeux/haroldBasement2.html" class="col-12 experiment-item">
+						<img src="assets/img/portfolio/HB2.png" alt="...">
+						<p class="mb-0 text-dark-brown">Harold's Basement 2 (2022)</p>
+						<p class="mb-0 link-orange localized" id="locals_home_see">Voir</p>
+					</a>
+					<div class="divider col-12 mb-5"></div>
+				</div>
+				<a class="button-white localized" id="locals_home_seeMore" role="button"
+					href="lists/portfolioExperimental.html" style="margin: auto;">Voir
+					plus</a>
+		</div>
+	</section>
+
+	<section class="background-light-orange pt-5" id="informations">
+		<div class="container">
+			<div class="row mb-5 justify-content-center">
+
+				<div class="col-4 information-box">
+					<div class="information-box-title mb-3">
+						<div class="mr-3 background-dark-orange"><i class="fas fa-envelope text-white"></i></div>
+						<h5 class="text-dark-orange mb-0 localized" id="locals_aboutMe_mail">Mail</h5>
+					</div>
+					<p class="text-dark-brown mb-0">oudot.julien@laposte.net</p>
+				</div>
+				<div class="col-4 information-box">
+					<div class="information-box-title mb-3">
+						<div class="mr-3 background-dark-orange"><i class="fas fa-download text-white"></i></div>
+						<h5 class="text-dark-orange mb-0 localized" id="locals_aboutMe_cv">CV</h5>
+					</div>
+					<p class="text-dark-brown mb-0"><a class="localized" id="locals_aboutMe_download"
+							href="cv.pdf">Télécharger</a></p>
+				</div>
+			</div>
+			<div class="row background-dark-orange">
+				<div class="col-6">
+					<h2 class="text-white localized" id="locals_aboutMe_title">À propos de moi</h2>
+					<p class="text-left text-white mb-0 localized" id="locals_aboutMe_text">Etudiant ayant suivi les
+						spécialités
+						Mathématiques et NSI
+						au lycée.<br>
+						Diplômé en BUT Informatique et actuellement en master Jeux et Médias
+						Interactifs
+						Numérique au CNAM-ENJMIN. <br>
+						Créateur de nombreux projets dans le domaine du jeu vidéo.</p>
+				</div>
+				<div class="col-6" style="display: flex; justify-content: center; align-items: center;">
+					<img class="rounded-circle " src="assets/img/photo.png" alt="Avatar" style="width:250px;" />
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4 localized" id="locals_footer_onTheWeb">Sur le Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2026</small></div>
+	</div>
+
 	<script type="text/javascript">
-		location.href = 'https://helisoya.github.io/Portfolio/';
+		const localsFR = {
+			// Header
+			"locals_header_home": 'Accueil',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "A propos",
+
+			// Home
+			"locals_home_title1": "Je suis développeur dans le jeu vidéo,",
+			"locals_home_title2": "Étudiant au CNAM-ENJMIN, je crée des jeux vidéo depuis 2020 sur mon temps libre.",
+			"locals_home_seeMyProjects": "Voir mes projets",
+			"locals_home_aboutMe": "En savoir + sur moi",
+
+			"locals_home_lastProject": "Mon dernier projet",
+			"locals_home_discoverProject": "Découvrir le projet",
+
+			"locals_home_portfolio": "Portfolio",
+			"locals_home_myProjects": "Mes Projets",
+			"locals_home_seeMore": "Voir plus",
+
+			"locals_home_experiements": "Mes expérimentations",
+			"locals_home_see": "Voir",
+
+			// About me
+			"locals_aboutMe_mail": "Mail",
+			"locals_aboutMe_cv": "CV",
+			"locals_aboutMe_download": "Télécharger",
+
+			"locals_aboutMe_title": "A propos de moi",
+			"locals_aboutMe_text": "Etudiant ayant suivi les spécialités Mathématiques et NSI au lycée.<br> \
+		Diplômé en BUT Informatique et actuellement en master Jeux et Médias Interactifs Numérique au CNAM-ENJMIN. <br> \
+		Créateur de nombreux projets dans le domaine du jeu vidéo.",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "Sur le Web",
+
+			// Spailpin
+			"locals_games_spailpin_desc1": "Spailpin est un jeu phygital mélant un carnet physique à un jeu vidéo, créé durant les projets M1 au CNAM-ENJMIN. Il a été créé en Unity / C#.",
+			"locals_games_spailpin_desc2": "Le but du joueur est de résoudre des énigmes, et comprendre l'histoire de l'univers du jeu, grâce au carnet.",
+
+		};
+
+		const localsEN = {
+			// Header
+			"locals_header_home": 'Home',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "About",
+
+			// Home
+			"locals_home_title1": "I am a developer specialized in video games,",
+			"locals_home_title2": "Student at CNAM-ENJMIN, I create games video since 2020 on my free time.",
+			"locals_home_myProjects": "Discover my projects",
+			"locals_home_aboutMe": "About me",
+
+			"locals_home_lastProject": "My last project",
+			"locals_home_discoverProject": "Discover the project",
+
+			"locals_home_portfolio": "Portfolio",
+			"locals_home_myProjects": "My projects",
+			"locals_home_seeMore": "See more",
+
+			"locals_home_experiements": "My experimentations",
+			"locals_home_see": "See more",
+
+			// About me
+			"locals_aboutMe_mail": "Mail",
+			"locals_aboutMe_cv": "CV",
+			"locals_aboutMe_download": "Download",
+
+			"locals_aboutMe_title": "About me",
+			"locals_aboutMe_text": "Student having followed the specialties Mathematics and NSI in high school.<br> \
+		Graduated from a BUT in Computer Science and currently in a master in 'Games and Interactive & Digital Medias' (JMIN) at CNAM-ENJMIN.<br> \
+		Creator of many projects in the field of video games.",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "On the Web",
+
+			// Spailpin
+			"locals_games_spailpin_desc1": "Spailpin is a phygital game combinning a physical notebook with a video game, created as part of the M1 projects at the CNAM- ENJMIN. It was created with Unity / C#.",
+			"locals_games_spailpin_desc2": "The goal of the player is to solve puzzles and to uncover the story behind the game thanks to the notebook.",
+		};
 	</script>
+
+	<script type="text/javascript" src="assets/locals.js"></script>
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 </body>
 
 

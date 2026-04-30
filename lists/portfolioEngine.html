@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Julien Oudot - Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="../css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
+		<div class="container">
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a class="localized" id="locals_header_home" href="../index.html">Accueil</a></li>
+					<li><a class="active localized" id="locals_header_portfolio" href="../portfolio.html">Portfolio</a>
+					</li>
+					<li><a class="localized" id="locals_header_blog" href="../blog.html">Blog</a></li>
+					<li><a class="localized" id="locals_header_about" href="../about.html">A propos</a></li>
+					<li><a id="changeLocalButton" href=""><img id="changeLocalImg" src="../assets/img/french.png"></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+	<section class="masthead background-dark-blue text-light " id="intro">
+		<div class="container mt-5 text-center">
+			<h2 class="page-section-heading text-center mb-4 font-weight-bold localized" id="locals_lists_portfolio">
+				Portfolio</h2>
+			<p class="pb-5 localized" id="locals_lists_engineFrameworksDesc">Retrouvez ici la liste de tout mes moteurs
+				de jeux / frameworks</p>
+		</div>
+	</section>
+
+
+
+	<section class="page-section portfolio" id="portfolio">
+		<div class="container mt-5 text-center">
+			<div class="row justify-content-center">
+
+				<!-- ANF -->
+				<div class="col-4 mb-4 project-card">
+					<img src="../assets/img/portfolio/ANF.png" alt="...">
+					<div class="overflow">
+						<p class="badge">C#, Unity</p>
+						<h3 class="text-white">Adventure Novel Framework</h3>
+						<a href="../engines/anf.html" class="stretched-link"></a>
+					</div>
+				</div>
+
+				<!-- ANE -->
+				<div class="col-4 mb-4 project-card">
+					<img src="../assets/img/portfolio/ANE.png" alt="...">
+					<div class="overflow">
+						<p class="badge">C++, DirectX11</p>
+						<h3 class="text-white">Adventure Novel Engine</h3>
+						<a href="../engines/ane.html" class="stretched-link"></a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4 localized" id="locals_footer_onTheWeb">Sur le Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2026</small></div>
+	</div>
+
+	<script type="text/javascript">
+		const localsFR = {
+			// Header
+			"locals_header_home": 'Accueil',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "A propos",
+
+			// Lists
+
+			"locals_lists_portfolio": "Portfolio",
+			"locals_lists_listDesc": "Retrouvez ici mes différents projets en plusieurs listes",
+
+			"locals_lists_engineFrameworksDesc": "Retrouvez ici la liste de tout mes moteurs de jeux / frameworks",
+
+
+			// Footer
+
+			"locals_footer_onTheWeb": "Sur le Web",
+
+		};
+
+		const localsEN = {
+			// Header
+			"locals_header_home": 'Home',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "About",
+
+			// Lists
+
+			"locals_lists_portfolio": "Portfolio",
+			"locals_lists_listDesc": "You can find my different projects in various lists",
+
+			"locals_lists_engineFrameworksDesc": "You'll find here the game engines / frameworks I worked on",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "On the Web",
+
+		};
+	</script>
+
+	<script type="text/javascript" src="../assets/locals.js"></script>
+
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Julien Oudot - Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="../css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
+		<div class="container">
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a class="localized" id="locals_header_home" href="../index.html">Accueil</a></li>
+					<li><a class="active localized" id="locals_header_portfolio" href="../portfolio.html">Portfolio</a>
+					</li>
+					<li><a class="localized" id="locals_header_blog" href="../blog.html">Blog</a></li>
+					<li><a class="localized" id="locals_header_about" href="../about.html">A propos</a></li>
+					<li><a id="changeLocalButton" href=""><img id="changeLocalImg" src="../assets/img/french.png"></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<header class="background-dark-blue text-white" id="master-header">
+		<div class="container d-flex align-items-center flex-column">
+
+			<div class="row justify-content-start">
+				<div class="col-8">
+					<h2 class="font-weight-bold pb-4">The Outrunner (2024)</h2>
+					<p class="font-weight-bold pb-2 localized" id="locals_games_theOutrunner_desc1">The Outrunner est
+						une installation temporaire en coop, créé pour le
+						proto-Eniarof 2025 (Une sorte de fête foraine numérique).</p>
+					<p class=" pb-4 localized" id="locals_games_theOutrunner_desc2">Le jeu est une route infinie, ou un
+						joueur contrôle la moto et doit esquiver
+						des obstacles. L'autre, quant à lui, doit tirer sur des ennemis qui arrivent devant et derrière
+						lui.</p>
+				</div>
+				<div class="col-4">
+					<img class="img-fluid" src="../assets/img/portfolio/TO.png" alt="MainLogo">
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row mb-5 justify-content-center">
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_language">Langage</h3>
+						<p class="text-center text-dark ">C#</p>
+						<p class="text-center text-dark">Unity</p>
+					</div>
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_type">Type</h3>
+						<p class="text-center text-dark localized" id="locals_global_temporaryInstallation">Jeu de Tir
+							Coop</p>
+					</div>
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_devTime">Temps de dev</h3>
+						<p class="text-center text-dark">5 <span class="localized" id="locals_global_days"></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_global_features">Caractéristiques du jeu</h3>
+				<p class="localized" id="locals_games_theOutrunner_features">
+					<br><br>
+					- Nous étions 2 développeurs sur ce projet. J'ai effectué l'implémentation de la route infinie, la
+					base du système de tir, les menus et les obstacles sur la route.
+					<br><br>
+					- Le joueur contrôlant la moto doit esquiver des obstacles sur la route. Pour ce faire, il doit
+					utiliser un joystick pour aller sur la droite et sur la gauche.
+					<br><br>
+					- L'autre joueur possède une arme, composée d'une wiimote, et doit tirer sur les différents ennemis
+					qui arrivent sur eux. Un ennemi peut arriver par devant, ou par derrière.
+					<br><br>
+					- Pour favoriser la coopération entre les deux joueurs, le joueur avec l'arme ne peut tirer que dans
+					un seul sens à la fois (devant ou derrière). Pour changer de sens, il doit demander au joueur qui
+					conduit d'incliner le joystick vers l'avant ou l'arrière, dépendamment du sens souhaité.
+
+				</p>
+			</div>
+			<div class="mt-5 col-6">
+				<img class="img-fluid pb-2" src="../assets/img/screenshots/TheOutrunner/1.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/TheOutrunner/2.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/TheOutrunner/3.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/TheOutrunner/4.png" alt="screenShot">
+			</div>
+		</div>
+
+		<section class="page-section portfolio" id="Download">
+			<div class="container my-5 text-center">
+				<div class="divider-custom">
+					<div class="divider-custom-line  mt-3"></div>
+				</div>
+				<h2 class="page-section-heading text-center text-dark mb-5 font-weight-bold localized"
+					id="locals_global_play">Jouer à ce jeu
+				</h2>
+				<iframe frameborder="0" src="https://itch.io/embed/3237247" width="552" height="167"><a
+						href="https://cybertoasty.itch.io/the-outrunner">The Outrunner by CyberToasty, BRST,
+						Aircooledmax, helisoya,
+						Ovembre, mou_mine, lilyb00p, homeofthegnome</a></iframe>
+			</div>
+		</section>
+	</section>
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4 localized" id="locals_footer_onTheWeb">Sur le Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2026</small></div>
+	</div>
+
+	<script type="text/javascript">
+		const localsFR = {
+			// Header
+			"locals_header_home": 'Accueil',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "A propos",
+
+			"locals_global_language": "Langage",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Temps de dev",
+
+			"locals_global_features": "Caractéristiques du jeu",
+			"locals_global_play": "Jouer à ce jeu",
+			"locals_global_seeVideoDemo": "Voir une démonstration vidéo",
+
+			"locals_global_temporaryInstallation": "Installation Temporaire",
+
+			"locals_global_weeks": "semaines",
+			"locals_global_months": "mois",
+			"locals_global_days": "jours",
+			"locals_global_week": "semaine",
+			"locals_global_month": "mois",
+			"locals_global_day": "jour",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "Sur le Web",
+
+			// The Outrunner
+			"locals_games_theOutrunner_desc1": "The Outrunner est une installation temporaire en coop, créé pour le proto-Eniarof 2025(Une sorte de fête foraine numérique).",
+			"locals_games_theOutrunner_desc2": "Le jeu est une route infinie, ou un joueur contrôle la moto et doit esquiver des obstacles. \
+				L'autre, quant à lui, doit tirer sur des ennemis qui arrivent devant et derrière lui.",
+
+			"locals_games_theOutrunner_features": "<br><br> \
+				- Nous étions 2 développeurs sur ce projet. \
+				J'ai effectué l'implémentation de la route infinie, la base du système de tir, les menus et les obstacles sur la route. \
+				<br><br> \
+				- Le joueur contrôlant la moto doit esquiver des obstacles sur la route. \
+				Pour ce faire, il doit utiliser un joystick pour aller sur la droite et sur la gauche. \
+				<br><br> \
+				- L'autre joueur possède une arme, composée d'une wiimote, et doit tirer sur les différents ennemis qui arrivent sur eux. \
+				Un ennemi peut arriver par devant, ou par derrière. \
+				<br><br> \
+				- Pour favoriser la coopération entre les deux joueurs, le joueur avec l'arme ne peut tirer que dans un seul sens à la fois (devant ou derrière).  \
+				Pour changer de sens, il doit demander au joueur qui conduit d'incliner le joystick vers l'avant ou l'arrière, dépendamment du sens souhaité.",
+
+		};
+
+		const localsEN = {
+			// Header
+			"locals_header_home": 'Home',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "About",
+
+			// Entry Global
+
+			"locals_global_language": "Language",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Dev time",
+
+			"locals_global_features": "Features",
+			"locals_global_play": "Play this game",
+			"locals_global_seeVideoDemo": "See a video demo",
+
+			"locals_global_temporaryInstallation": "Temporary Installation",
+
+			"locals_global_weeks": "weeks",
+			"locals_global_months": "months",
+			"locals_global_days": "days",
+			"locals_global_week": "week",
+			"locals_global_month": "month",
+			"locals_global_day": "day",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "On the Web",
+
+			// The Outrunner
+			"locals_games_theOutrunner_desc1": "The Outrunner is a temporary co-op installation, created for the proto-Eniarof 2025(A kind of digital funfair).",
+			"locals_games_theOutrunner_desc2": "The game consists on an infinite road, where one player controls the motorcycle and must dodge obstacles. \
+						The other must shoot at enemies who arrive in front of and behind the motorcycle.",
+
+			"locals_games_theOutrunner_features": "<br><br> \
+				- We were 2 developers on this project. I carried out the implementation of the infinite road, the basis of the shooting system, the menus and the obstacles on the road. \
+				<br><br> \
+				- The player controlling the motorcycle must dodge obstacles on the road. \
+				To do this, he must use a joystick to go right and left. \
+				<br><br> \
+				- The other player has a weapon, composed of a wiimote, and must shoot at the different enemies who move towards them. \
+				An enemy can arrive from the front, or from behind. \
+				<br><br> \
+				- To promote cooperation between the two players, the player with the weapon can only shoot in one direction at a time (front or back). \
+				To change direction, he must ask the player who is driving to tilt the joystick forward or backward, depending on the desired direction.",
+
+		};
+	</script>
+
+	<script type="text/javascript" src="../assets/locals.js"></script>
+
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+
+</html>

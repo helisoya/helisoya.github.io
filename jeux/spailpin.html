@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Julien Oudot - Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="../css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
+		<div class="container">
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a class="localized" id="locals_header_home" href="../index.html">Accueil</a></li>
+					<li><a class="active localized" id="locals_header_portfolio" href="../portfolio.html">Portfolio</a>
+					</li>
+					<li><a class="localized" id="locals_header_blog" href="../blog.html">Blog</a></li>
+					<li><a class="localized" id="locals_header_about" href="../about.html">A propos</a></li>
+					<li><a id="changeLocalButton" href=""><img id="changeLocalImg" src="../assets/img/french.png"></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="background-dark-blue text-white" id="master-header">
+		<div class="container d-flex align-items-center flex-column">
+
+			<div class="row justify-content-start">
+				<div class="col-8">
+					<h2 class="font-weight-bold pb-4">Spailpin (2025)</h2>
+					<p class="font-weight-bold pb-2 localized" id="locals_games_spailpin_desc1">Spailpin est un jeu
+						phygital mêlant un carnet physique à un jeu
+						vidéo, créé durant les projets M1 au CNAM-ENJMIN. Il a été créé en Unity / C#.</p>
+					<p class=" pb-4 localized" id="locals_games_spailpin_desc2">Le but du joueur est de résoudre des
+						énigmes, et comprendre l'histoire de l'univers
+						du jeu, grâce au carnet.</p>
+				</div>
+				<div class="col-4">
+					<img class="img-fluid" src="../assets/img/portfolio/S.png" alt="MainLogo">
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row mb-5 justify-content-center">
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_language">Langage</h3>
+						<p class="text-center text-dark ">C#</p>
+						<p class="text-center text-dark">Unity</p>
+					</div>
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_type">Type</h3>
+						<p class="text-center text-dark localized" id="locals_global_phygitalPuzzleGame">Jeu d'énigme
+							phygital</p>
+					</div>
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_devTime">Temps de dev</h3>
+						<p class="text-center text-dark">3 <span class="localized" id="locals_global_months">mois</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_global_features">Caractéristiques du jeu</h3>
+				<p class="localized" id="locals_games_spailpin_features">
+					<br>
+					- Le jeu est phygital. Cela veut dire que pour progresser dans le jeu et résoudre ses énigmes, il
+					faut lire le carnet conçu spécialement pour le jeu. A l'intérieur est contenu du lore, ainsi que des
+					indices pour résoudre les différentes énigmes du jeu.
+					<br><br>
+					- Le système de localisation et le système de scripting pour les dialogues sont hérités de la série
+					<a href="haroldQuestRemake.html">Harold's Quest</a>. Pour la localisation, c'est une copie exacte.
+					Cependant, pour le système de dialogue, seule la logique est gardée. En effet, pour faciliter le
+					travail des game designers, j'ai décidé de gérer de manière nodale la partie scripting, au lieu du
+					langage de programmation que j'utilisais pour Harold's Quest. L'implémentation nodale s'est faite
+					avec XNode.
+					<br><br>
+					- Le joueur se déplace avec une caméra fixe. Certains triggers peuvent changer l'angle de caméra
+					avec ou sans transition. La direction vers laquelle se déplace le joueur dépend de la rotation de
+					caméra.
+					<br></br>
+					- Les énigmes dans le jeu sont diverses, et nécessitent de lire le carnet, ou de regarder
+					l'environnement pour les résoudre.
+					<br></br>
+					- Une attention importante a été portée sur l'accessibilité, avec par exemple des contours autour
+					des objets interactibles, ou des tailles de textes ajustables.
+				</p>
+			</div>
+			<div class="mt-5 col-6">
+				<img class="img-fluid pb-2" src="../assets/img/screenshots/Spailpin/1.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/Spailpin/2.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/Spailpin/3.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/Spailpin/4.png" alt="screenShot">
+			</div>
+		</div>
+
+		<section class="page-section portfolio" id="Download">
+			<div class="container my-5 text-center">
+				<div class="divider-custom">
+					<div class="divider-custom-line  mt-3"></div>
+				</div>
+				<h2 class="page-section-heading text-center text-dark mb-5 font-weight-bold localized"
+					id="locals_global_play">Jouer à ce jeu
+				</h2>
+				<iframe frameborder="0" src="https://itch.io/embed/3481466" width="552" height="167"><a
+						href="https://aircooledmax.itch.io/spailpinbetweenpages">Spailpin : Between Pages by
+						Aircooledmax, Heloxz,
+						mewaska, Lucia Amidala, helisoya, feliji, TomKestrel</a></iframe>
+			</div>
+		</section>
+	</section>
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4 localized" id="locals_footer_onTheWeb">Sur le Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2026</small></div>
+	</div>
+
+	<script type="text/javascript">
+		const localsFR = {
+			// Header
+			"locals_header_home": 'Accueil',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "A propos",
+
+			"locals_global_language": "Langage",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Temps de dev",
+
+			"locals_global_features": "Caractéristiques du jeu",
+			"locals_global_play": "Jouer à ce jeu",
+			"locals_global_seeVideoDemo": "Voir une démonstration vidéo",
+
+			"locals_global_phygitalPuzzleGame": "Jeu d'énigme phygital",
+
+			"locals_global_weeks": "semaines",
+			"locals_global_months": "mois",
+			"locals_global_days": "jours",
+			"locals_global_week": "semaine",
+			"locals_global_month": "mois",
+			"locals_global_day": "jour",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "Sur le Web",
+
+			// Spailpin
+			"locals_games_spailpin_desc1": "Spailpin est un jeu phygital mélant un carnet physique à un jeu vidéo, créé durant les projets M1 au CNAM-ENJMIN. Il a été créé en Unity / C#.",
+			"locals_games_spailpin_desc2": "Le but du joueur est de résoudre des énigmes, et comprendre l'histoire de l'univers du jeu, grâce au carnet.",
+
+			"locals_games_spailpin_features": "<br> \
+				- Le jeu est phygital. Cela veut dire que pour progresser dans le jeu et résoudre ses énigmes, il faut lire le carnet conçu spécialement pour le jeu. \
+				A l'intérieur est contenu du lore, ainsi que des indices pour résoudre les différentes énigmes du jeu. \
+				<br><br> \
+				- Le système de localisation et le système de scripting pour les dialogues sont hérités de la série <a href='haroldQuestRemake.html'>Harold's Quest</a>. \
+				Pour la localisation, c'est une copie exacte. \
+				Cependant, pour le système de dialogue, seule la logique est gardée. En effet, pour faciliter le travail des game designers, j'ai décidé de gérer de manière nodale la partie scripting, au lieu du langage de programmation que j'utilisais pour Harold's Quest. \
+				L'implémentation nodale s'est faite avec XNode. \
+				<br> <br> \
+				- Le joueur se déplace avec une caméra fixe. Certains triggers peuvent changer l'angle de caméra avec ou sans transition. \
+				La direction vers laquelle se déplace le joueur dépend de la rotation de caméra. \
+				<br></br> \
+				- Les énigmes dans le jeu sont diverses, et nécessitent de lire le carnet, ou de regarder l'environnement pour les résoudre. \
+				<br></br> \
+				- Une attention importante a été portée sur l'accessibilité, avec par exemple des contours autour des objets interactibles, ou des tailles de textes ajustables.",
+
+		};
+
+		const localsEN = {
+			// Header
+			"locals_header_home": 'Home',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "About",
+
+			// Entry Global
+
+			"locals_global_language": "Language",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Dev time",
+
+			"locals_global_features": "Features",
+			"locals_global_play": "Play this game",
+			"locals_global_seeVideoDemo": "See a video demo",
+
+			"locals_global_phygitalPuzzleGame": "Phygital Puzzle Game",
+
+			"locals_global_weeks": "weeks",
+			"locals_global_months": "months",
+			"locals_global_days": "days",
+			"locals_global_week": "week",
+			"locals_global_month": "month",
+			"locals_global_day": "day",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "On the Web",
+
+			// Spailpin
+			"locals_games_spailpin_desc1": "Spailpin is a phygital game combinning a physical notebook with a video game, created as part of the M1 projects at the CNAM- ENJMIN. It was created with Unity / C#.",
+			"locals_games_spailpin_desc2": "The goal of the player is to solve puzzles and to uncover the story behind the game thanks to the notebook.",
+
+			"locals_games_spailpin_features": "<br> \
+				- The game is phygital.It means that in order to progress and to solve puzzles, you'll need to read the notebook created for the game. \
+				Inside are bits of lore, as well as hints to help you solve the puzzles. \
+				<br> <br> \
+				- The localization and cutscene systems are inherited from <a href='haroldQuestRemake.html'>Harold's Quest</a>. \
+				For the localization, it's an exact copy. In the case of the cutscene system, only the global logic was kept. \
+				In order to facilitate the game designer's work, I decided to handle the scripting part as a nodal system, instead of the scripting language I used for Harold's Quest. \
+				I used XNode to implement the nodal system. \
+				<br><br> \
+				- The player moves around with a fixed camera angle. Certain triggers can change dynamically the camera's angle with or without a transition. \
+				The direction the player walks towards depends on the camera's rotation. \
+				<br></br> \
+				- The in game puzzles are diverse, and need you to read the notebook in order to be solved. \
+				You can also look at the environment to solve them. \
+				<br></br> \
+				- Accessibility was of great importance during developement. \
+				For instance, you can enable outlines around interactable objects, or change the size of the text.",
+
+		};
+	</script>
+
+	<script type="text/javascript" src="../assets/locals.js"></script>
+
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+
+</html>

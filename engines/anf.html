@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Julien Oudot - Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="../css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
+		<div class="container">
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a class="localized" id="locals_header_home" href="../index.html">Accueil</a></li>
+					<li><a class="active localized" id="locals_header_portfolio" href="../portfolio.html">Portfolio</a>
+					</li>
+					<li><a class="localized" id="locals_header_blog" href="../blog.html">Blog</a></li>
+					<li><a class="localized" id="locals_header_about" href="../about.html">A propos</a></li>
+					<li><a id="changeLocalButton" href=""><img id="changeLocalImg" src="../assets/img/french.png"></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<header class="background-dark-blue text-white" id="master-header">
+		<div class="container d-flex align-items-center flex-column">
+
+			<div class="row justify-content-start">
+				<div class="col-8">
+					<h2 class="font-weight-bold pb-4">Adventure Novel Framework (ANF)</h2>
+					<p class="font-weight-bold pb-2 localized" id="locals_engine_anf_desc1">ANF est un framework sur
+						lequel je travaille depuis 2020, et qui a
+						été utilisé pour de nombreux projets.</p>
+					<p class=" pb-4 localized" id="locals_engine_anf_desc2">C'est à la base un framework pour visual
+						novel / point & clicks. Il a cependant été
+						décliné pour d'autres types de projets.</p>
+				</div>
+				<div class="col-4">
+					<img class="img-fluid" src="../assets/img/portfolio/ANF.png" alt="MainLogo">
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row mb-5 justify-content-center">
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_language">Langage</h3>
+						<p class="text-center text-dark ">C#</p>
+						<p class="text-center text-dark">Unity</p>
+					</div>
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_type">Type</h3>
+						<p class="text-center text-dark">Framework</p>
+					</div>
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_devTime">Temps de dev</h3>
+						<p class="text-center text-dark">2021-2026</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_anf_history">Histoire du framework</h3>
+				<p class="localized" id="locals_engine_anf_historyDesc"">
+					ANF est un framework servant au départ à créer des Visual Novel 2D. Il a évolué au fil du temps et
+					est maintenant un framework plutôt centrée sur la création de point & click / visual novel 3D non
+					linéaires.
+					De ce fait, il a eu plusieurs formes au cours des années, voir noms. On peut distinguer 4 phases
+					dans son évolution :
+					<br></br>
+					- <b>La phase pré-framework</b> fut la première phase du framework.
+					Elle regroupe les premiers jeux Harold's Quest fait à l'époque sur Python et Javascript.
+					Au départ, il consistait simplement en des fonctions permettant d'afficher des dialogues et
+					d'effectuer des actions.
+					Il fallait tout de même coder en python le jeu, même si les fonctions prémachaient le travail.
+					La première réelle version du framework vu le jour avec Harold's Quest 2. Le jeu utilisait un moteur
+					de jeu fait à la main et permettant de créer un visual novel quasiment sans avoir à toucher de code
+					python.
+					Bien que cette version était fonctionnelle, elle possédait certaines failles (mauvaise gestion
+					mémoire, représentation interne des dialogues pas assez efficace, ...) qui ne la rendait pas viable
+					à long terme.
+					<br></br>
+					- <b>La phase du début du framework</b> fut la deuxième phase du framework.
+					Elle regroupe certains jeux Harold's Quest, mais aussi d'autres jeux n'ayant rien à voir avec la
+					série.
+					Ces derniers réutilisent en général le système de localisation du framework, ainsi que le processeur
+					de script.
+					Cette phase marque le début du framework sur Unity, avec un changement drastique dans la façon dont
+					il fonctionne.
+					Le processeur de script fut crée pour contrôler plus simplement les évenement en jeu, et une
+					première version d'ANSL (Adventure Novel Scripting Language) fut conceptualisé.
+					<br></br>
+					- <b>La phase moderne du framework</b> fut la troisème phase du framework.
+					Elle regroupe les remakes des jeux Harold's Quest, mais aussi des projets étudiants.
+					Ces derniers réutilisent le système de localisation du framework, ainsi que le processeur de script.
+					Le twist est que les systèmes utilisés par ces projets étudiants ont été modifiés par rapport à ceux
+					d'Harold's Quest.
+					Le système de localisation a été ammélioré (performances et accessibilités), et une version nodale
+					de ANSL, plus accessible pour des non-programmeurs, a été crée.
+					De coté des jeux Harold's Quest, cette phase marque la transition vers de la 3D point & click. ANSL,
+					le language de script du framework a été retravaillé pour être plus accessible et simple à utiliser.
+					Le framework en lui-même a été retravaillé pour être plus agréable à regarder et plus simple à
+					modifier par la suite.
+					Dans le cas du remake du Joyau du Nord, une version alternative du framework a été crée afin de
+					supporter les différentes mécaniques de RPG du jeu.
+					<br></br>
+					- <b>La phase finale du framework</b> sera la quatrième phase du framework.
+					Elle représentera la création d'une version standalone du framework, utilisant différentes parties
+					des jeux précédents.
+					Le système de localisation utilisera la version de My Herbarium, et le reste sera hérité du remake
+					du Joyau du Nord.
+					Des modifications de stabilité seront effectués sur le framework pour le rendre plus accessible à
+					une plus grande audience, et des features d'accessibiltiés seront ajoutées.
+				</p>
+			</div>
+			<div class=" mt-5 col-6 text-center">
+					<img class="img-fluid pb-2 text-center" src="../assets/img/engines/ANF/2.png" alt="screenShot">
+				<p class="text-center localized" id="locals_engine_anf_figure1Desc">Schéma de l'évolution de ANF. Les
+					jeux en verts héritent de l'intégralité du
+					framework. Les jeux en jaune héritent seulement d'une partie.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-dark-blue text-white" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_anf_basis">Bases du framework</h3>
+				<p class="localized" id="locals_engine_anf_basisDesc">
+					Le framework est décomposé en plusieurs modules, qui sont responsables de différentes parties du
+					framework.
+					<br></br>
+					- <b>Le manager</b> est responsable de gérer les autres modules et de s'assurer qu'ils soient bien
+					synchronisés. Il gère aussi les variables joueurs (nom du joueur, quêtes en cours, ...)
+					<br></br>
+					- <b>Le monde</b> est responsable des personnages à l'écran et du décor.
+					<br></br>
+					- <b>Intéractions</b> est responsable de la mécanique d'intéraction du framework.
+					<br></br>
+					- <b>Le processeur de script</b> est responsable de la traduction du language de script ANSL en
+					commandes interprétables par le framework.
+					<br></br>
+					- <b>Le GUI</b> est responsable des différents élements de UI du framework (menu pause, dialogues,
+					...).
+					<br></br>
+					- <b>La localisation</b> est gérée par le framework avec un systême fait à la main.
+					<br></br>
+					- <b>La carte</b> permet au joueur de se déplacer dans une ou plusieurs cartes. Cela permet d'avoir
+					une expérience de jeu moins linéaire et plus ouverte.
+					<br></br><br></br>
+					ANSL (Adventure Novel Scripting Langguage) est le language de script permettant de créer des jeux
+					sans avoir à trop toucher le framework.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../assets/img/engines/ANF/1.png" alt="screenShot">
+				<p class="text-center localized" id="locals_engine_anf_figure2Desc">Schéma des différents modules de ANF
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_anf_ansl">ANSL</h3>
+				<p class="localized" id="locals_engine_anf_anslDesc">
+					ANSL est le language de script du framework. Il est similaire en synthaxe et en fonctionnement à du
+					C# afin de minimiser le temps de prise en main.
+					Lors de l'interpretation du script, le processeur lira le code ligne par ligne, et déclenchera les
+					comportements voulu.
+					Il y a deux types de "commandes" : les fonctions et des mots clés de contrôles.
+					<br></br>
+					- <b>Les mots clés de contrôles</b> sont <b>if</b>, <b>interact</b>, <b>choice</b>, <b>switch</b>,
+					... .
+					Ils déclenchent une modification de la lecture du fichier de script.
+					<b>If</b> vérifie si une variable joueur a une certaine valeur. Si oui, des commandes sont
+					effectués. Si non, d'autres commandes le seront.
+					<b>Choice</b> déclenche l'apparation d'un choix, demandant une interaction du joueur avant de
+					continuer.
+					<b>Interact</b> permet de lancer le mode interaction du framework. (Il faut alors cliquer sur un
+					objet du monde pour déclencher un nouveau script)
+					<br></br>
+					- <b>Les fonctions</b> sont les commandes les plus communes dans ANSL.
+					Elles ont le format <i>NOM_COMMANDE(PARAMETRE_1;PARAMETRE_2;...;PARAMETRE_N)</i>.
+					Ces fonctions permettent d'accomplir un grand nombre d'actions, comme afficher un dialogue, modifier
+					des variables joueurs, changer de décors, de météo ou de personnages, faire un fondu, change le
+					script courant, ...
+					<br></br><br></br>
+					Une module de langue pour Visual Studio Code a aussi été développé pour permettre de visualiser plus
+					facilement le code.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../assets/img/engines/ANF/3.png" alt="screenShot">
+				<p class="text-center localized" id="locals_engine_anf_figure3Desc">Exemple d'un script ANSL. Celui-ci
+					représente la fin d'un dialogue dans le remake
+					du Joyau du Nord (2026)</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="background-dark-blue text-white" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_anf_map">La carte</h3>
+				<p class="localized" id="locals_engine_anf_mapDesc">
+					Utiliser la fonction <b>map</b> dans ANSL permet d'ouvrir une carte spécifique. Cela a pour effet
+					d'ouvrir une carte à l'écran, permettant au joueur de se déplacer dans le monde.
+					C'est une façon de permettre des déplacements dans un contexte de jeu type Point & Click / Visual
+					Novel.
+					<br></br>
+					Le framework peut supporter plusieurs cartes. Il suffit simplement de les setup correctement. Une
+					carte est constitué de :
+					<br></br>
+					- <b>Un visuel</b> qui représente la région dant laquelle on va se déplacer.
+					<br></br>
+					- <b>Des boutons</b> qui représentent les différents points d'intérêt de la carte. Cliquer sur un
+					bouton a pour effet de fermer la carte et de lancer un script prédéfini.
+					Il est aussi possible de se déplacer de carte en carte avec une utilisation intéligente de scripts.
+					Pour setup ou redirigent chaque points, il faut indiquer dans un fichier .txt les informations de
+					chaques boutons.
+					On peut aussi faire en sorte qu'un bouton ne s'affiche que si une condition avec une variable joueur
+					est remplis. (Par exemple : Je ne peux me déplacer à la mairie que si la variable
+					<i>canTravel_CityHall</i> est à 1)
+
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="../assets/img/engines/ANF/4.mp4"
+						allowfullscreen></iframe>
+				</div>
+				<p class="text-center localized" id="locals_engine_anf_figure4Desc">Exemple de carte dans le remake du
+					Joyau du Nord (2026)</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_anf_interactionMode">Mode interaction</h3>
+				<p class="localized" id="locals_engine_anf_interactionModeDesc">
+					Le mode intéraction permet à l'utilisateur d'intéragir avec l'environnement.
+					Il intéragir avec des objets du décor ainsi qu'avec les personnages présent.
+					Cliquer sur un élement intéractible a pour effet de lancer un script ANSL spécifique.
+					Pour setup le monde interaction, il suffit, dans le script ANSL, d'utiliser différentes fonctions
+					pour spécifier les scripts lancés par les intéractions, ou pour éventuellement désactiver
+					l'intéraction sur certains élements.
+					Enfin, il suffit d'utiliser le mot clé <b>interact</b> afin de lancer le mode interaction.
+					<br><br>
+					Par défaut, il peut aussi intéragir avec le bas de l'écran pour ouvrir la carte de l'endroit ou il
+					se trouve.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="../assets/img/engines/ANF/5.mp4"
+						allowfullscreen></iframe>
+				</div>
+				<p class="text-center localized" id="locals_engine_anf_figure4Desc">Exemple d'une série d'intéractions
+					dans Harold's Quest 2 (2025)</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-dark-blue text-white" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_anf_variables">Les variables joueurs</h3>
+				<p class="localized" id="locals_engine_anf_variablesDesc">
+					Les variables joueurs sont des variables accessibles et modifiables en runtime à partir d'ANSL.
+					Elles peuvent représenter différentes choses, comme des quêtes ou des états de météo.
+					De nombreux systèmes utilisent les variables joueurs, comme le système de carte ou le système de
+					quête dans Le Joyau Du Nord.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../assets/img/engines/ANF/6.png" alt="screenShot">
+				<p class="text-center localized" id="locals_engine_anf_figure5Desc">Extraits des variables joueurs de Le
+					Joyau du Nord (2026)</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_engine_anf_localization">Localisation</h3>
+				<p class="localized" id="locals_engine_anf_localizationDesc">
+					Le framework comporte un système préfait pour de la localisation et de la gestion de taille,
+					tyopographie et couleurs de textes.
+					<br><br>
+					Chaque text localisé est affecté à un "channel". Il en existe 10.
+					Par la suite, on peut modifier les informations d'un channel, ce qui aura pour effet de modifier la
+					taille, typographie et couleur de toutes les zones de textes affectées au channel.
+					L'implémentation se base sur l'utilisation de UnityEvents.
+					<br><br>
+					Pour les traductions, plusieurs fichiers sont crées pour contenir les différents textes du projet.
+					Il en existe par défaut 2 :
+					<br><br>
+					- Le fichier <b>system</b> qui regroupe les textes liés aux différents menus. Ils sont en général
+					"statique", ne devant pas être modifiés entre chaque projet.
+					<br><br>
+					- Le fichier <b>common</b> qui regroupe les fichiers textes "commun" du jeu. Ce sont dans le cas de
+					visual novels les textes liés à l'histoire et qui sont affichés dans les boites de dialogues.
+					<br><br>
+					On peut créer d'autres fichiers de localisations et les charger au runtime. Cela permet de séquencer
+					le fichier <b>common</b> et d'alléger le poids en mémoire du système.
+				</p>
+			</div>
+			<div class="mt-5 col-6 text-center">
+				<img class="img-fluid pb-2" src="../assets/img/engines/ANF/7.png" alt="screenShot">
+				<p class="text-center localized" id="locals_engine_anf_figure6Desc">Extrait de fichiers de localisation
+					dans le remake de Le Joyau Du Nord (2026)</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4 localized" id="locals_footer_onTheWeb">Sur le Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2026</small></div>
+	</div>
+
+	<script type="text/javascript">
+		const localsFR = {
+			// Header
+			"locals_header_home": 'Accueil',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "A propos",
+
+			"locals_global_language": "Langage",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Temps de dev",
+
+			"locals_global_features": "Caractéristiques du jeu",
+			"locals_global_play": "Jouer à ce jeu",
+			"locals_global_seeVideoDemo": "Voir une démonstration vidéo",
+
+			"locals_global_weeks": "semaines",
+			"locals_global_months": "mois",
+			"locals_global_days": "jours",
+			"locals_global_week": "semaine",
+			"locals_global_month": "mois",
+			"locals_global_day": "jour",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "Sur le Web",
+
+			// ANF
+
+			"locals_engine_anf_desc1": "ANF est un framework sur lequel je travaille depuis 2020, et qui a été utilisé pour de nombreux projets.",
+			"locals_engine_anf_desc2": "C'est à la base un framework pour visual novel / point & clicks. Il a cependant été décliné pour d'autres types de projets.",
+
+			"locals_engine_anf_history": "Histoire du framework",
+			"locals_engine_anf_historyDesc": "ANF est un framework servant au départ à créer des Visual Novel 2D. \
+					Il a évolué au fil du temps et est maintenant un framework plutôt centrée sur la création de point & click / visual novel 3D non linéaires. \
+					De ce fait, il a eu plusieurs formes au cours des années, voir noms.On peut distinguer 4 phases dans son évolution: \
+					<br></br> \
+					- <b>La phase pré-framework</b> fut la première phase du framework. \
+					Elle regroupe les premiers jeux Harold's Quest fait à l'époque sur Python et Javascript. \
+					Au départ, il consistait simplement en des fonctions permettant d'afficher des dialogues et d'effectuer des actions. \
+					Il fallait tout de même coder en python le jeu, même si les fonctions prémachaient le travail.\
+					La première réelle version du framework vu le jour avec Harold's Quest 2. \
+					Le jeu utilisait un moteur de jeu fait à la main et permettant de créer un visual novel quasiment sans avoir à toucher de code python. \
+					Bien que cette version était fonctionnelle, elle possédait certaines failles(mauvaise gestion mémoire, représentation interne des dialogues pas assez efficace, ...) qui ne la rendait pas viable à long terme. \
+					<br></br> \
+					- <b>La phase du début du framework</b> fut la deuxième phase du framework. \
+					Elle regroupe certains jeux Harold's Quest, mais aussi d'autres jeux n'ayant rien à voir avec la série. \
+					Ces derniers réutilisent en général le système de localisation du framework, ainsi que le processeur de script. \
+					Cette phase marque le début du framework sur Unity, avec un changement drastique dans la façon dont il fonctionne. \
+					Le processeur de script fut crée pour contrôler plus simplement les évenement en jeu, et une première version d'ANSL (Adventure Novel Scripting Language) fut conceptualisé. \
+					<br></br> \
+					- <b>La phase moderne du framework</b> fut la troisème phase du framework. \
+					Elle regroupe les remakes des jeux Harold's Quest, mais aussi des projets étudiants. \
+					Ces derniers réutilisent le système de localisation du framework, ainsi que le processeur de script. \
+					Le twist est que les systèmes utilisés par ces projets étudiants ont été modifiés par rapport à ceux d'Harold's Quest. \
+					Le système de localisation a été ammélioré(performances et accessibilités), et une version nodale de ANSL, plus accessible pour des non-programmeurs, a été crée. \
+					De coté des jeux Harold's Quest, cette phase marque la transition vers de la 3D point & click. \
+					ANSL, le language de script du framework a été retravaillé pour être plus accessible et simple à utiliser. \
+					Le framework en lui - même a été retravaillé pour être plus agréable à regarder et plus simple à modifier par la suite. \
+					Dans le cas du remake du Joyau du Nord, une version alternative du framework a été crée afin de supporter les différentes mécaniques de RPG du jeu. \
+					<br></br> \
+					- <b>La phase finale du framework</b> sera la quatrième phase du framework. \
+					Elle représentera la création d'une version standalone du framework, utilisant différentes parties des jeux précédents. \
+					Le système de localisation utilisera la version de My Herbarium, et le reste sera hérité du remake du Joyau du Nord. \
+					Des modifications de stabilité seront effectués sur le framework pour le rendre plus accessible à une plus grande audience, et des features d'accessibiltiés seront ajoutées.",
+
+			"locals_engine_anf_figure1Desc": "Schéma de l'évolution de ANF. \
+					Les jeux en verts héritent de l'intégralité du framework.Les jeux en jaune héritent seulement d'une partie.",
+
+
+			"locals_engine_anf_basis": "Bases du framework",
+			"locals_engine_anf_basisDesc": "Le framework est décomposé en plusieurs modules, qui sont responsables de différentes parties du framework. \
+					<br></br> \
+					- <b>Le manager</b> est responsable de gérer les autres modules et de s'assurer qu'ils soient bien synchronisés. \
+					Il gère aussi les variables joueurs(nom du joueur, quêtes en cours, ...) \
+					<br></br> \
+					- <b>Le monde</b> est responsable des personnages à l'écran et du décor. \
+					<br></br> \
+					- <b>Intéractions</b> est responsable de la mécanique d'intéraction du framework. \
+					<br></br> \
+					- <b>Le processeur de script</b> est responsable de la traduction du language de script ANSL en commandes interprétables par le framework. \
+					<br></br> \
+					- <b>Le GUI</b> est responsable des différents élements de UI du framework(menu pause, dialogues, ...). \
+					<br></br> \
+					- <b>La localisation</b> est gérée par le framework avec un systême fait à la main. \
+					<br></br> \
+					- <b>La carte</b> permet au joueur de se déplacer dans une ou plusieurs cartes.Cela permet d'avoir une expérience de jeu moins linéaire et plus ouverte. \
+					<br></br> <br></br> \
+					ANSL(Adventure Novel Scripting Langguage) est le language de script permettant de créer des jeux sans avoir à trop toucher le framework.",
+
+			"locals_engine_anf_figure2Desc": "Schéma des différents modules de ANF",
+
+			"locals_engine_anf_ansl": "ANSL",
+			"locals_engine_anf_anslDesc": "ANSL est le language de script du framework. Il est similaire en synthaxe et en fonctionnement à du C# afin de minimiser le temps de prise en main. \
+					Lors de l'interpretation du script, le processeur lira le code ligne par ligne, et déclenchera les comportements voulu. \
+					Il y a deux types de 'commandes': les fonctions et des mots clés de contrôles. \
+					<br></br> \
+					- <b>Les mots clés de contrôles</b> sont <b>if</b>, <b>interact</b>, <b>choice</b>, <b>switch</b>, ... . \
+					Ils déclenchent une modification de la lecture du fichier de script. \
+					<b> If</b> vérifie si une variable joueur a une certaine valeur.Si oui, des commandes sont effectués. Si non, d'autres commandes le seront. \
+					<b> Choice</b> déclenche l'apparation d'un choix, demandant une interaction du joueur avant de continuer. \
+					<b> Interact</b> permet de lancer le mode interaction du framework. (Il faut alors cliquer sur un objet du monde pour déclencher un nouveau script) \
+					<br></br> \
+					- <b>Les fonctions</b> sont les commandes les plus communes dans ANSL. \
+					Elles ont le format <i> NOM_COMMANDE(PARAMETRE_1; PARAMETRE_2;...;PARAMETRE_N)</i>. \
+					Ces fonctions permettent d'accomplir un grand nombre d'actions, comme afficher un dialogue, modifier des variables joueurs, changer de décors, de météo ou de personnages, faire un fondu, change le script courant, ... \
+					<br></br><br></br> \
+					Une module de langue pour Visual Studio Code a aussi été développé pour permettre de visualiser plus facilement le code.",
+
+			"locals_engine_anf_figure3Desc": "Exemple d'un script ANSL. Celui-ci représente la fin d'un dialogue dans le remake du Joyau du Nord(2026)",
+
+			"locals_engine_anf_map": "La carte",
+			"locals_engine_anf_mapDesc": "Utiliser la fonction <b>map</b> dans ANSL permet d'ouvrir une carte spécifique. \
+					Cela a pour effet d'ouvrir une carte à l'écran, permettant au joueur de se déplacer dans le monde. \
+					C'est une façon de permettre des déplacements dans un contexte de jeu type Point & Click / Visual Novel. \
+					<br></br> \
+					Le framework peut supporter plusieurs cartes. Il suffit simplement de les setup correctement. Une carte est constitué de : \
+					<br></br>\
+					- <b>Un visuel</b> qui représente la région dant laquelle on va se déplacer. \
+					<br></br> \
+					- <b>Des boutons</b> qui représentent les différents points d'intérêt de la carte. \
+					Cliquer sur un bouton a pour effet de fermer la carte et de lancer un script prédéfini. \
+					Il est aussi possible de se déplacer de carte en carte avec une utilisation intéligente de scripts. \
+					Pour setup ou redirigent chaque points, il faut indiquer dans un fichier.txt les informations de chaques boutons. \
+					On peut aussi faire en sorte qu'un bouton ne s'affiche que si une condition avec une variable joueur est remplis. (Par exemple : Je ne peux me déplacer à la mairie que si la variable <i> canTravel_CityHall</i> est à 1) ",
+
+			"locals_engine_anf_figure4Desc": "Exemple de carte dans le remake du Joyau du Nord (2026)",
+
+			"locals_engine_anf_interactionMode": "Mode interaction",
+			"locals_engine_anf_interactionModeDesc": "Le mode intéraction permet à l'utilisateur d'intéragir avec l'environnement. \
+					Il intéragir avec des objets du décor ainsi qu'avec les personnages présent. \
+					Cliquer sur un élement intéractible a pour effet de lancer un script ANSL spécifique. \
+					Pour setup le monde interaction, il suffit, dans le script ANSL, d'utiliser différentes fonctions pour spécifier les scripts lancés par les intéractions, ou pour éventuellement désactiver l'intéraction sur certains élements. \
+					Enfin, il suffit d'utiliser le mot clé <b>interact</b> afin de lancer le mode interaction. \
+					<br><br> \
+					Par défaut, il peut aussi intéragir avec le bas de l'écran pour ouvrir la carte de l'endroit ou il se trouve.",
+
+			"locals_engine_anf_figure4Desc": "Exemple d'une série d'intéractions dans Harold's Quest 2 (2025)",
+
+			"locals_engine_anf_variables": "Les variables joueurs",
+			"locals_engine_anf_variablesDesc": "Les variables joueurs sont des variables accessibles et modifiables en runtime à partir d'ANSL. \
+					Elles peuvent représenter différentes choses, comme des quêtes ou des états de météo. \
+					De nombreux systèmes utilisent les variables joueurs, comme le système de carte ou le système de quête dans Le Joyau Du Nord.",
+
+			"locals_engine_anf_figure5Desc": "Extraits des variables joueurs de Le Joyau du Nord (2026)",
+
+			"locals_engine_anf_localization": "Localisation",
+			"locals_engine_anf_localizationDesc": "Chaque text localisé est affecté à un 'channel'. Il en existe 10. \
+					Par la suite, on peut modifier les informations d'un channel, ce qui aura pour effet de modifier la taille, typographie et couleur de toutes les zones de textes affectées au channel. \
+					L'implémentation se base sur l'utilisation de UnityEvents. \
+					<br><br> \
+					Pour les traductions, plusieurs fichiers sont crées pour contenir les différents textes du projet. \
+					Il en existe par défaut 2 : \
+					<br><br> \
+					- Le fichier <b>system</b> qui regroupe les textes liés aux différents menus. Ils sont en général 'statique', ne devant pas être modifiés entre chaque projet. \
+					<br><br> \
+					- Le fichier <b>common</b> qui regroupe les fichiers textes 'commun' du jeu. Ce sont dans le cas de visual novels les textes liés à l'histoire et qui sont affichés dans les boites de dialogues. \
+					<br><br> \
+					On peut créer d'autres fichiers de localisations et les charger au runtime. Cela permet de séquencer le fichier<b> common</b > et d'alléger le poids en mémoire du système.",
+
+			"locals_engine_anf_figure6Desc": "Extrait de fichiers de localisation dans le remake de Le Joyau Du Nord (2026)",
+
+
+		};
+
+		const localsEN = {
+			// Header
+			"locals_header_home": 'Home',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "About",
+
+			// Entry Global
+
+			"locals_global_language": "Language",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Dev time",
+
+			"locals_global_features": "Features",
+			"locals_global_play": "Play this game",
+			"locals_global_seeVideoDemo": "See a video demo",
+
+			"locals_global_weeks": "weeks",
+			"locals_global_months": "months",
+			"locals_global_days": "days",
+			"locals_global_week": "week",
+			"locals_global_month": "month",
+			"locals_global_day": "day",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "On the Web",
+
+			// ANF
+
+			"locals_engine_anf_desc1": "ANF is a framework that I'm working on since 2020. It was used for many projects.",
+			"locals_engine_anf_desc2": "At its core, it is a framework for visual novels / point & clicks. It was however reused for other types of games.",
+
+			"locals_engine_anf_history": "Framework history",
+			"locals_engine_anf_historyDesc": "ANF is a framework initially used to create 2D Visual Novels. \
+				It evolved over time and is now a framework focused on the creation of 3D non- linear point & click / visual novel. \
+				As a result, it had during the past few years different forms, and even names. You can distinguish 4 phases in its evolution: \
+				<br></br> \
+				- <b>The pre-framwork phase</b> was the first phase of the framework. \
+				It includes the first Harold's Quest games made at the time in Python and Javascript. \
+				Initially, it consisted simply of functions allowing the display of dialogues and the activation of events. \
+				It was still necessary to code the game in python, even if the functions made the work easier. \
+				The first real version of the framework was created with Harold's Quest 2. \
+				The game used a handmade game engine and allowed its user to create a visual novel almost without having to touch python code. \
+				Although this version was functional, it had some flaws(poor memory management, internal representation of dialogues not effective enough, ...) which did not make it viable in the long term. \
+				<br></br> \
+				- <b>The early framework phase</b> was the second phase of the framework. \
+				It includes some Harold's Quest games, but also other games that have nothing to do with the series. \
+				The latter generally reuse the framework's localization system, as well as the script processor. \
+				This phase marks the beginning of the framework on Unity, with a drastic change on its inner working. \
+				The script processor was created to control more simply in -game events, and a first version of ANSL (Adventure Novel Scripting Language) was conceptualized. \
+				<br></br> \
+				- <b>The modern framework phase</b> was the third phase of the framework. \
+				It includes the remakes of the Harold's Quest games, but also student projects. \
+				The latter reuse the framework's localization system, as well as the script processor. "+
+				"The twist is that the systems used by these student projects have been modified.\
+				The location system has been improved(performance and accessibility), and a nodal version of ANSL, more accessible for non - programmers, was created.\
+				On the side of Harold's Quest games, this phase marks the transition to 3D point & click. ANSL, the script language of the framework has been reworked to be more accessible and simple to use. \
+				The framework itself has been reworked to be more pleasant to look at and easier to modify afterwards. \
+				In the case of the remake of 'Le Joyau du Nord', an alternative version of the framework was created to support the different RPG mechanics of the game. \
+				<br></br> \
+				- <b>The final phase of the framework</b> will be the fourth phase of the framework. \
+				It will represent the creation of a standalone version of the framework, using different parts from previous games. \
+				The localization system will use the version of My Herbarium, and the rest will be inherited from the remake of 'Le Joyau du Nord'. \
+				Stability changes will be made to the framework to make it more accessible to a larger audience, and accessibility features will be implemented.",
+
+			"locals_engine_anf_figure1Desc": "Diagram of the evolution of ANF. \
+				Games in green inherit the entirety of the framework.Games in yellow inherit only parts of it.",
+
+
+			"locals_engine_anf_basis": "Framework basis",
+			"locals_engine_anf_basisDesc": "The framework can be broken down into several modules, which are responsible for different parts of the framework. \
+				<br></br> \
+				- <b>The manager</b> is responsible for managing the other modules and ensuring they are properly synchronized. "+
+				"It also manages player variables(player name, current quests, ...) \
+				<br></br> \
+				- <b>The world</b> is responsible for the on - screen characters and scenery. \
+				<br></br> \
+				- <b>Interactions</b> is responsible for the framework's interaction mechanics. \
+				<br></br> \
+				- <b>The script processor</b> is responsible for translating the ANSL script language into interpretable commands by the framework. \
+				<br></br> \
+				- <b>The GUI</b> is responsible for the different elements of the framework's UI (pause menu, dialogues, ...). \
+				<br></br> \
+				- <b>The localization</b> is managed by the framework with a handmade system. \
+				<br></br> \
+				- <b>The map</b> allows the player to move through one or more maps.This allows for a less linear and more open gaming experience. \
+				<br></br><br></br> \
+				ANSL(Adventure Novel Scripting Langguage) is the scripting language allowing the user to create games without having to touch too much the framework.",
+
+			"locals_engine_anf_figure2Desc": "Diagram of the different modules of ANF",
+
+			"locals_engine_anf_ansl": "ANSL",
+			"locals_engine_anf_anslDesc": "ANSL is the scripting language of the framework. It is similar in syntax and operation to C# in order to minimize the learning curve. \
+				When interpreting the script, the processor will read the code line by line, and trigger the desired behaviors. \
+				There are two types of 'commands': functions and control keywords. \
+				<br></br> \
+				- <b>The control keywords</b> are <b>if</b>, <b>interact</b>, <b>choice</b>, <b>switch</b>, ... . \
+				They trigger a modification in the way the script file is read. \
+				<b> If</b> checks if a player variable has a certain value.If yes, commands are performed. If no, other commands will be. \
+				<b> Choice</b> triggers the appearance of a choice, asking for an interaction from the player before continuing. \
+				<b> Interact</b> allows to launch the framework's interaction mode. (It is then necessary to click on a world object to trigger a new script) \
+				<br></br> \
+				- <b>Functions</b> are the most common commands in ANSL. \
+				They have the format<i> NAME_COMMAND(PARAMETER_1; PARAMETER_2; ...; PARAMETER_N)</i >. \
+				These functions allow you to perform a large number of actions, such as displaying a dialogue, modifying player variables, changing the scenery, the weather or the characters, fading, changing the current script, ... \
+				<br></br><br></br> \
+				A language module for Visual Studio Code was also developed to make it easier to view the code.",
+
+			"locals_engine_anf_figure3Desc": "Example of an ANSL script. It represents the end of a dialog in the remake of 'Le Joyau du Nord' (2026)",
+
+			"locals_engine_anf_map": "The map",
+			"locals_engine_anf_mapDesc": "Using the <b>map</b> function in ANSL allows you to open a specific map. \
+				This has the effect of opening a map on the screen, allowing the player to move around the world. \
+				It's a way to allow movement in a Point & Click/ Visual Novel game context. \
+				<br></br> \
+				The framework can support several maps. It is simply necessary to properly configure them.A map consists of: \
+				<br></br> \
+				- <b>A visual</b> which represents the region in which the player will move in. \
+				<br></br> \
+				- <b>Buttons</b> which represent the different points of interest on the map. Clicking a button closes the map and launches a predefined script. \
+				It is also possible to move from map to map with smart use of scripts. \
+				To configure where each button redirect, it is necessary to indicate in a.txt file the informations for each button. \
+				You can also make a button only appear if a condition with a player variable is met. "+
+				"(For example: I can only go to the city hall if the variable <i> canTravel_CityHall</i> is equals to 1)",
+
+			"locals_engine_anf_figure4Desc": "Example of map movements in 'Le Joyau du Nord' (2026)",
+
+			"locals_engine_anf_interactionMode": "Interaction mode",
+			"locals_engine_anf_interactionModeDesc": "The interaction mode allows the user to interact with the environment. \
+				You can interact with objects from the scenery as well as with the characters present on screen. \
+				Clicking on an interactable element will launch a specific ANSL script. \
+				To setup the interaction mode, you need to use different ANSL functions to specify the scripts launched by the interactions, or to disable the interaction on certain elements. \
+				Finally, just use the keyword<b>interact</b> to launch the interaction mode. \
+				<br><br> \
+				By default, you can also interact with the bottom of the screen to open the map of the place you are currently in.",
+
+			"locals_engine_anf_figure4Desc": "Example of a serie of interactions in Harold's Quest 2 (2025)",
+
+			"locals_engine_anf_variables": "Player variables",
+			"locals_engine_anf_variablesDesc": "Player variables are accessible and modifiable in runtime from ANSL. \
+				They can represent different things, like quests or weather conditions. \
+				Many systems use player variables, such as the map system or the quest system in 'Le Joyau Du Nord'.",
+
+			"locals_engine_anf_figure5Desc": "Some of the player variables in 'Le Joyau du Nord' (2026)",
+
+			"locals_engine_anf_localization": "Localization",
+			"locals_engine_anf_localizationDesc": "The framework includes a built-in system for the localization and management of text's size, typography, and color. \
+				<br><br> \
+				Each localized text is assigned to a 'channel'. There are 10 of them. \
+				Subsequently, one can modify the information of a channel, which will have the effect of modifying the size, typography, and color of all the texts assigned to the channel. \
+				The implementation is based on the use of UnityEvents. \
+				<br><br> \
+				For translations, several files are created to contain the different texts of the project. There are 2 by default : \
+				<br><br> \
+				- The <b>system</b> file which regroups the texts related to the different menus. \
+				They are generally 'static' and do not need to be modified between each project. \
+				<br><br> \
+				- The <b>common</b> file that regroups together the 'common' text files of the game. \
+				In the case of visual novels, these are the texts related to the story that are displayed in the dialog boxes.\
+				<br><br> \
+				You can create other localization files and load them in runtime. This allows to break down the <b>common</b> file and lighten the system's memory weight.",
+
+			"locals_engine_anf_figure6Desc": "Some of the localization files in the remake of 'Le Joyau du Nord' (2026)",
+
+		};
+	</script>
+
+	<script type="text/javascript" src="../assets/locals.js"></script>
+
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+
+</html>
