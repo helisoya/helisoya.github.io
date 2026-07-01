@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Julien Oudot - Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+		type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="../css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg background-dark-blue fixed-top" id="main-nav">
+		<div class="container">
+			<h4 class="text-white">Julien Oudot</h4>
+			<button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a class="localized" id="locals_header_home" href="../index.html">Accueil</a></li>
+					<li><a class="active localized" id="locals_header_portfolio" href="../portfolio.html">Portfolio</a>
+					</li>
+					<li><a class="localized" id="locals_header_blog" href="../blog.html">Blog</a></li>
+					<li><a class="localized" id="locals_header_about" href="../about.html">A propos</a></li>
+					<li><a id="changeLocalButton" href=""><img id="changeLocalImg" src="../assets/img/french.png"></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<header class="background-dark-blue text-white" id="master-header">
+		<div class="container d-flex align-items-center flex-column">
+
+			<div class="row justify-content-start">
+				<div class="col-8">
+					<h2 class="font-weight-bold pb-4"><span class="localized"
+							id="locals_games_haroldQuest2Remake_name">Le Joyau du Nord</span>(2026)</h2>
+					<p class="font-weight-bold pb-2 localized" id="locals_games_haroldQuest2Remake_desc1">Le Joyau du
+						Nord est un RPG Point & Click / Visual Novel
+						3D,
+						codé en Unity / C#.</p>
+					<p class=" pb-4 localized" id="locals_games_haroldQuest2Remake_desc2">On y incarne un soldat d'élite
+						devant, ou pas, réaliser des quêtes pour le dictateur de son pays.
+						Ce jeu est un remake du précédent <a href="leJoyauDuNord.html">Le Joyau du Nord</a>.</p>
+				</div>
+				<div class="col-4">
+					<img class="img-fluid" src="../assets/img/portfolio/LJDN-R.png" alt="MainLogo">
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row mb-5 justify-content-center">
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_language">Langage</h3>
+						<p class="text-center text-dark ">C#</p>
+						<p class="text-center text-dark">Unity</p>
+					</div>
+
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_type">Type</h3>
+						<p class="text-center text-dark localized" id="locals_global_pointClickVisualNovel">Point &
+							Click
+							/ Visual Novel</p>
+					</div>
+					<div class="col-3 ml-1 information-box background-light-orange">
+						<h3 class="text-warning pb-2 text-center localized" id="locals_global_devTime">Temps de dev</h3>
+						<p class="text-center text-dark">6 <span class="localized" id="locals_global_month"></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="background-light-orange" id="last-project">
+		<div class="row mx-5">
+			<div class="col-6">
+				<h3 class="text-warning pb-2 localized" id="locals_global_features">Caractéristiques du jeu</h3>
+				<p class="localized" id="locals_games_haroldQuest2Remake_features">
+					<br><br>
+					- Le jeu utilise le même framework que <a href="haroldQuest2Remake.html">Harold's Quest -
+						RickeyLand</a>. Plusieurs modifications ont été apportés à plusieurs echelles pour faciliter
+					l'intégration d'éléments de RPG dans le gameplay. Le système de scripting a aussi été retravaillé
+					pour être un peu plus moderne, avec par exemple une stack dédidée pour les scripts.
+					<br><br>
+					- Le jeu original et son histoire ont été totalement réimaginés afin de mieux coller au nouveau
+					canon de la série Harold's Quest et à ses attentes. La structure narrative reste similaire, et se
+					décompose en 2 grands "actes". Dans le 1er, le joueur doit réaliser des missions pour son dictateur
+					local et retrouver un colis perdu. Dans le 2ème, il peut changer de camps et rejoindre des factions
+					ennemies pour les aider à renverser le dictateur. Il peut aussi aider le dictateur à rester au
+					pouvoir si il en a vraiment envie.
+					<br><br>
+					- Pour réaliser ces quêtes, le joueur va devoir se déplacer dans le monde, décomposé en plusieurs
+					zones. Chaque zones possèdent plusieurs points d'intérêts ou il pourra trouver des quêtes
+					secondaires, des boutiques, des auberges, des accolytes pour le rejoindre dans son aventure, ....
+					<br><br>
+					- Pour réaliser certaines quêtes, il sera nécessaire d'entrer dans des donjons. Ces derniers sont
+					générés procéduralement et il faut trouver la sortie de chaque étage.
+					<br><br>
+					- Dans les donjons, mais aussi dans le monde en général, le joueur sera ammené à se battre. Il devra
+					alors vaincre des ennemis en utilisant un système de combat en tour par tour. Si le joueur a des
+					accolytes, ils combatteront à ses cotés. Les armes ont aussi des attaques spéciales dépendament de
+					leur type.
+				</p>
+			</div>
+			<div class="mt-5 col-6">
+				<img class="img-fluid pb-2" src="../assets/img/screenshots/LeJoyauDuNordRemake/1.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/LeJoyauDuNordRemake/2.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/LeJoyauDuNordRemake/3.png" alt="screenShot">
+			</div>
+			<div class="col-4 mt-2">
+				<img class="img-fluid" src="../assets/img/screenshots/LeJoyauDuNordRemake/4.png" alt="screenShot">
+			</div>
+		</div>
+
+		<section class="page-section portfolio" id="Download">
+			<div class="container my-5 text-center">
+				<div class="divider-custom">
+					<div class="divider-custom-line  mt-3"></div>
+				</div>
+				<h2 class="page-section-heading text-center text-dark mb-5 font-weight-bold localized"
+					id="locals_global_play">Jouer à ce jeu
+				</h2>
+				<iframe frameborder="0" src="https://itch.io/embed/4456775" width="552" height="167"><a
+						href="https://helisoya.itch.io/the-jewel-of-the-north">The Jewel of the North by
+						helisoya</a></iframe>
+			</div>
+		</section>
+	</section>
+
+	<!-- Copyright Section-->
+	<div class="copyright py-4 text-center text-white">
+		<div class="text-center">
+			<h4 class="text-uppercase mb-4 localized" id="locals_footer_onTheWeb">Sur le Web</h4>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://github.com/helisoya"><i
+					class="fab fa-fw fa-github"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2" href="https://helisoya.itch.io/"><i
+					class="fab fa-fw fa-itch-io"></i></a>
+			<a class="btn btn-outline-light btn-social mx-1 mb-2"
+				href="https://www.linkedin.com/in/julien-oudot-986486257/"><i class="fab fa-fw fa-linkedin"></i></a>
+		</div>
+		<div class="container"><small>Copyright © 2026</small></div>
+	</div>
+
+	<script type="text/javascript">
+		const localsFR = {
+			// Header
+			"locals_header_home": 'Accueil',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "A propos",
+
+			"locals_global_language": "Langage",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Temps de dev",
+
+			"locals_global_features": "Caractéristiques du jeu",
+			"locals_global_play": "Jouer à ce jeu",
+			"locals_global_seeVideoDemo": "Voir une démonstration vidéo",
+
+			"locals_global_pointClickVisualNovel": " Point & Click / Visual Novel",
+
+			"locals_global_weeks": "semaines",
+			"locals_global_months": "mois",
+			"locals_global_days": "jours",
+			"locals_global_week": "semaine",
+			"locals_global_month": "mois",
+			"locals_global_day": "jour",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "Sur le Web",
+
+			// Harold Quest 2 Remake
+			"locals_games_haroldQuest2Remake_name": "Le Joyau du Nord",
+
+			"locals_games_haroldQuest2Remake_desc1": "Le Joyau du Nord est un RPG Point & Click / Visual Novel 3D, codé en Unity / C#.",
+			"locals_games_haroldQuest2Remake_desc2": "On y incarne un soldat d'élite devant, ou pas, réaliser des quêtes pour le dictateur de son pays. \
+				Ce jeu est un remake du précédent <a href = 'leJoyauDuNord.html'>Le Joyau du Nord</a>.",
+
+			"locals_games_haroldQuest2Remake_features": "<br><br> \
+				- Le jeu utilise le même framework que <a href = 'haroldQuest2Remake.html'>Harold's Quest -RickeyLand</a>. \
+				Plusieurs modifications ont été apportés à plusieurs echelles pour faciliter l'intégration d'éléments de RPG dans le gameplay. \
+				Le système de scripting a aussi été retravaillé pour être un peu plus moderne, avec par exemple une stack dédidée pour les scripts.\
+				<br><br> \
+				- Le jeu original et son histoire ont été totalement réimaginés afin de mieux coller au nouveau canon de la série Harold's Quest et à ses attentes. \
+				La structure narrative reste similaire, et se décompose en 2 grands 'actes'. \
+				Dans le 1er, le joueur doit réaliser des missions pour son dictateur local et retrouver un colis perdu. \
+				Dans le 2ème, il peut changer de camps et rejoindre des factions ennemies pour les aider à renverser le dictateur. \
+				Il peut aussi aider le dictateur à rester au pouvoir si il en a vraiment envie. \
+				<br><br> \
+				- Pour réaliser ces quêtes, le joueur va devoir se déplacer dans le monde, décomposé en plusieurs zones. \
+				Chaque zones possèdent plusieurs points d'intérêts ou il pourra trouver des quêtes secondaires, des boutiques, des auberges, des accolytes pour le rejoindre dans son aventure, ... \
+				<br><br> \
+				- Pour réaliser certaines quêtes, il sera nécessaire d'entrer dans des donjons. \
+				Ces derniers sont générés procéduralement et il faut trouver la sortie de chaque étage. \
+				<br><br> \
+				- Dans les donjons, mais aussi dans le monde en général, le joueur sera ammené à se battre. \
+				Il devra alors vaincre des ennemis en utilisant un système de combat en tour par tour. \
+				Si le joueur a des accolytes, ils combatteront à ses cotés. \
+				Les armes ont aussi des attaques spéciales dépendament de leur type.",
+		};
+
+		const localsEN = {
+			// Header
+			"locals_header_home": 'Home',
+			"locals_header_portfolio": 'Portfolio',
+			"locals_header_blog": 'Blog',
+			"locals_header_about": "About",
+
+			// Entry Global
+
+			"locals_global_language": "Language",
+			"locals_global_type": "Type",
+			"locals_global_devTime": "Dev time",
+
+			"locals_global_features": "Features",
+			"locals_global_play": "Play this game",
+			"locals_global_seeVideoDemo": "See a video demo",
+
+			"locals_global_pointClickVisualNovel": " Point & Click / Visual Novel",
+
+			"locals_global_weeks": "weeks",
+			"locals_global_months": "months",
+			"locals_global_days": "days",
+			"locals_global_week": "week",
+			"locals_global_month": "month",
+			"locals_global_day": "day",
+
+			// Footer
+
+			"locals_footer_onTheWeb": "On the Web",
+
+			// Harold Quest 2 Remake
+			"locals_games_haroldQuest2Remake_name": "The Jewel of the North",
+
+			"locals_games_haroldQuest2Remake_desc1": "The Jewel of the North is a 3D Point & Click / Visual Novel RPG, coded with Unity / C#.",
+			"locals_games_haroldQuest2Remake_desc2": "You play as an elite soldier who has to help, or fight the dictator of his country. \
+				This game is a remake of <a href = 'leJoyauDuNord.html'>Le Joyau du Nord</a>.",
+
+			"locals_games_haroldQuest2Remake_features": "<br><br> \
+				- The game uses the same framework as <a href = 'haroldQuest2Remake.html'>Harold's Quest -RickeyLand</a>. \
+				Modifications were made at different scales to facilitate the integration of RPG elements into the gameplay. \
+				The scripting system was also reworked to be more modern, with for instance a dedicated stack for scripts. \
+				<br><br> \
+				- The original game and its story were completely reworked to better fit the new canon of the Harold's Quest serie and it's principles.\
+				The narrative structive remains similar, and is composed of two 'acts'. \
+				In act one, the player needs to do missions for his local dictator in order to find a lost package. \
+				In act two, they may switch side and help ennemy factions against the dictator, or help the latter remain in power. \
+				<br><br> \
+				- To finish these quests, the player will have to naviguate a world divided into several zones. \
+				Each zone contains multiple points of interests where they'll be able to get side quests, shop for equipement, visit inns, and find followers. \
+				<br><br> \
+				- Some of the quests will require the player to enter dungeons. \
+				They are procedurally generated, and they'll need to find the exit of each level to complete one. \
+				<br><br> \
+				- During dungeons, but also in the wider world, the player will have to fight. \
+				They'll need to defeat ennemies using a turn based system. \
+				If the player has followers, they'll fight alongside them. \
+				Weapons also have different skills depending on their class. (Knife, guns, ...) ",
+		};
+	</script>
+
+	<script type="text/javascript" src="../assets/locals.js"></script>
+
+
+	<!-- Bootstrap core JS-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+
+</html>
